@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/index-style.css" />
     <title>Ministerio de Turismo</title>
+    <link
+      rel="icon"
+      href="assets/img/FSA_HSA_LOGO-COLOR.png"
+      type="image/png"
+    />
   </head>
+
+  <!--
+      Página: Inicio
+      Descripción: Página inico del sitio web ministerio de turismo
+      Autor: [Riveros Diego Fernando]
+      Fecha: [18/04/2026]
+-->
+
   <body>
     <div class="contenedor">
+      <!--  header parte inicial de la página, incluye el título, el logo y el menú de navegación. Facilita que navegadores y herramientas de accesibilidad entiendan mejor la estructura. -->
+      <header>
+        <img
+          class="header-logo"
+          src="assets/img/FSA_HSA_LOGO-COLOR.png"
+          alt=""
+        />
+
+        <!-- Barra de Navegacion -->
+        <nav class="barra-navegacion">
+          <!-- Titulo principal -->
+          <h1>Ministerio de Turismo de la ciudad de Formosa</h1>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Contenido principal de la pagina -->
       <main>
-        <header>
-          <nav class="barra-navegacion">
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
-        </header>
         <section>
-          <h1>Formosa es hermosa</h1>
+          <!-- Titulo secundario -->
+          <h2>Formosa es hermosa</h2>
 
           <div class="contenedor">
             <img src="assets/img/banado.jpg" alt="" />
@@ -74,7 +100,7 @@
             <img src="assets/img/imagen-formosa-hermosa.jpg" alt="" />
           </div>
 
-          <h1>Lugares turisticos para conocer en Formosa</h1>
+          <h2>Lugares turisticos para conocer en Formosa</h2>
           <div class="contenedor">
             <div>
               <h3>Bañado la estrella</h3>
@@ -128,6 +154,7 @@
           </div>
         </section>
 
+        <!-- Pie de pagina con info de cierre -->
         <footer class="contenedor">
           <div>
             <img src="assets/img/FSA_HSA_LOGO-COLOR.png" alt="" />
